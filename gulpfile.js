@@ -80,7 +80,7 @@ gulp.task("jshint", function() {
 
 gulp.task("uglify", function () {
     gulp.src(paths.src.js)
-        .pipe(uglify({outSourceMap: true}))
+        .pipe(uglify({outSourceMap: true, mangle: false}))
         .pipe(gulp.dest(paths.dest.js));
 
 });
