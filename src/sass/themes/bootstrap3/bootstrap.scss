@@ -118,22 +118,41 @@
     border-radius: 4px;
     color: #D9EDF7;
     border: 1px solid #285e8e;
+
+    a, a:link, a:visited {
+        color: #D9EDF7;
+    }
 }
+
 .alertify-log-error {
     color: #ecf0f1;
     background: #e74c3c;
     border: 1px solid #c0392b;
+
+    a, a:link, a:visited {
+        color: #ecf0f1;
+    }
 }
+
 .alertify-log-success {
     color: #ecf0f1;
     background: #27ae60;
     border: 1px solid #2ecc71;
+
+    a, a:link, a:visited {
+        color: #ecf0f1;
+    }
 }
+
 .alertify-log-warning {
     background: #FDF6B1;
     background: rgba(253, 246, 177, .9);
     border: 2px solid yellow;
-    color: #333333;
+    color: #333;
     text-shadow: none;
     font-weight: bold;
+
+    a, a:link, a:visited {
+        color: #333;
+    }
 }

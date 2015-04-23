@@ -65,6 +65,10 @@
   color: #FFF;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5); }
 
+.alertify-log a, .alertify-log a:link, .alertify-log a:visited {
+  color: #FFF;
+}
+
 .alertify-log-error {
   background: #FE1A00;
   background: rgba(254, 26, 0, 0.9); }
@@ -77,7 +81,11 @@
   background: #FDF6B1;
   background: rgba(253, 246, 177, .9);
   border: 2px solid yellow;
-  color: #333333;
+  color: #333;
   text-shadow: none;
   font-weight: bold;
+}
+
+.alertify-log-warning a, .alertify-log-warning a:link, .alertify-log-warning a:visited {
+  color: #333;
 }

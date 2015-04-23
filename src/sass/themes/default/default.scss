@@ -68,6 +68,10 @@
   border-radius: 4px;
   color: #FFF;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, .5);
+
+  a, a:link, a:visited {
+    color: #FFF;
+  }
 }
 
 .alertify-log-error {
@@ -87,4 +91,8 @@
   color: #333333;
   text-shadow: none;
   font-weight: bold;
+
+  a, a:link, a:visited {
+    color: #333;
+  }
 }

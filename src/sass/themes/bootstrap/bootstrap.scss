@@ -130,23 +130,39 @@ $log-error-border: 1px solid $log-error-border-color !default;
   border: 1px solid #BCE8F1;
 }
 
+.alertify-log a, .alertify-log a:link, .alertify-log a:visited {
+  color: #3A8ABF;
+}
+
 .alertify-log-error {
   color: $log-error-color;
   background: $log-error-background;
   border: $log-error-border;
+
+  a, a:link, a:visited {
+    color: $log-error-color;
+  }
 }
 
 .alertify-log-success {
   color: #468847;
   background: #DFF0D8;
   border: 1px solid #D6E9C6;
+
+  a, a:link, a:visited {
+    color: #468847;
+  }
 }
 
 .alertify-log-warning {
   background: #FDF6B1;
   background: rgba(253, 246, 177, .9);
   border: 2px solid yellow;
-  color: #333333;
+  color: #333;
   text-shadow: none;
   font-weight: bold;
+
+  a, a:link, a:visited {
+    color: #333;
+  }
 }
