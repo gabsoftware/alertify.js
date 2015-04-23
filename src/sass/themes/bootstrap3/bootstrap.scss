@@ -130,7 +130,10 @@
     border: 1px solid #2ecc71;
 }
 .alertify-log-warning {
-    color: #ecf0f1;
     background: #FDF6B1;
-    border: 1px solid #2ecc71;
+    background: rgba(253, 246, 177, .9);
+    border: 2px solid yellow;
+    color: #333333;
+    text-shadow: none;
+    font-weight: bold;
 }
