@@ -723,6 +723,10 @@
                 _alertify.log(message, "error", wait, click);
                 return this;
             },
+            warning: function(message, wait, click) {
+                _alertify.log(message, "warning", wait, click);
+                return this;
+            },
             set: function(args) {
                 _alertify.set(args);
             },

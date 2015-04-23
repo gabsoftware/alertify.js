@@ -32,5 +32,8 @@
   "devDependencies": {
     "jquery": "*",
     "qunit": "~1.16.0"
+  },
+  "dependencies": {
+    "alertifyjs": "~0.3.16"
   }
 }

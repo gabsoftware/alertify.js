@@ -115,3 +115,9 @@
   color: #468847;
   background: #DFF0D8;
   border: 1px solid #D6E9C6; }
+
+.alertify-log-warning {
+  color: #468847;
+  background: #FDF6B1;
+  border: 1px solid #D6E9C6;
+}

@@ -92,3 +92,5 @@ gulp.task("watch", function () {
 });
 
 gulp.task("build", ["uglify", "css-min"]);
+
+gulp.task('default', ["build", "test"]);

@@ -72,3 +72,8 @@
 .alertify-log-success {
   background: #5CB811;
   background: rgba(92, 184, 17, 0.9); }
+
+.alertify-log-warning {
+  background: #FDF6B1;
+  background: rgba(253, 246, 177, .9);
+}
